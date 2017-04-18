@@ -29,7 +29,14 @@ def get_data():
 				{
 					"type": "doctype",
 					"name": "Student Group Creation Tool"
+				},
+				{
+					"type": "report",
+					"is_query_report": True,
+					"name": "Student and Guardian Contact Details",
+					"doctype": "Program Enrollment"
 				}
+
 			]
 		},
 		{
@@ -99,7 +106,7 @@ def get_data():
 				{
 					"type": "doctype",
 					"name": "Course Schedule",
-					"route": "Calendar/Course Schedule"
+					"route": "List/Course Schedule/Calendar"
 				},
 				{
 					"type": "doctype",
@@ -198,6 +205,10 @@ def get_data():
 				{
 					"type": "doctype",
 					"name": "Academic Year"
+				},
+				{
+					"type": "doctype",
+					"name": "School Settings"
 				}
 			]
 		},
